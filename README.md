@@ -33,25 +33,25 @@ Os conjuntos de dados utilizados foram retirados do site [Mulan-Sourceforge](htt
 
 Nas próximas subseções os *datasets* são apresentados com mais detalhes.
 
-### Dataset 1
+### *Birds*
 
 No conjunto de dados *birds* queremos categorizar áudios captados na natureza produzidos por pássaros com as respectivas espécies de pássaros que podem produzir este som. Este *dataset* apresenta 645 instâncias e 260 atributos, sendo 2 nominais e 258 numéricos. Apresenta 19 rótulos.
 
-### Dataset 2
+### *Yeast*
 
-No contexto de bio-informática, no *dataset Yeast*, analisamos o genoma de leveduras através da observação dos genes, então, os classificamos de acordo com as funcionalidades geradas por essas proteínas. No *dataset* existem 2417 instâncias de leveduras com 103 atributos numéricos e 14 possibilidades de classificação multirrótulo.
+No contexto de bio-informática, o *dataset Yeast* apresenta genomas de leveduras e queremos classificar leveduras de acordo com as funcionalidades geradas por essas proteínas (genes). No *dataset* existem 2417 instâncias de leveduras com 103 atributos numéricos e 14 possibilidades de classificação multirrótulo.
 
-### Dataset 3
+### *Flags*
 
 O conjunto de dados *Flags* nos apresenta formas geométricas, cores, religião, idioma, tamanho da população, continente, entre outras informações, e pede para indicarmos quais cores a bandeira do país apresenta, sendo 7 possibilidades de cores e portanto, rótulos. Além disso, apresenta 194 instâncias e 19 atributos, com 9 nominais e 10 numéricos.
 
 
-### Dataset 4
+### *Genbase*
 
 Também no contexto de bio-informática, o *dataset Genbase* apresenta sequências de proteína, genes, e pede para indicarmos as características relacionados com essa sequência do DNA. Há 662 instâncias para serem analisadas com 1186 atributos nominais e 27 rótulos representando as características do gene. 
 
 
-### Dataset 5
+### *Emotions*
 
 O último *dataset* escolhido foi o *Emotions*. Queremos detectar as emoções contidas em pedaços de músicas, todos os dados já estão representados de forma numérica e estruturados. São utilizados 593 instâncias de músicas, com 72 atributos numéricos e 6 *labels*, que representam as emoções. 
 
