@@ -1,5 +1,7 @@
 # Trabalho 1 - Classificação Multirrótulo
 
+## Introdução
+
 Neste repositório vamos resolver o primeiro trabalho prático da disciplina Aprendizado de Máquina 2, ofertada pelo Prof. Dr. Diego Furtado Silva
 na modalidade EAD no semestre 2021/2 pelo [DC-UFSCar](https://site.dc.ufscar.br/).
 
@@ -18,3 +20,25 @@ Segundo o enunciado deste trabalho prático, devemos escolher um tema entre as s
 - Aprendizado ativo
  
 dos quais escolhemos abordar a classificação multirrótulo. A partir dessa escolha, utilizamos três algoritmos de classificação multirrótulo para solucionar cinco conjuntos de dados estruturados distintos, então elaboramos uma avaliação experimental comparativa entre os métodos implementados, a fim de testar a robustez dos algoritmos escolhidos. 
+
+## Datasets
+
+Os datasets escolhidos foram:
+
+Foram obtidos do site:
+http://mulan.sourceforge.net/datasets-mlc.html
+
+Algumas informações sobre cada dataset:
+
+### Dataset 1
+### Dataset 2
+### Dataset 3
+### Dataset 4
+### Dataset 5
+
+
+## Algoritmos aplicados
+
+Os algoritmos aplicados foram:
+
+
