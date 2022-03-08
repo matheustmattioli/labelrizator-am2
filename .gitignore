@@ -1,6 +1,2 @@
-
-.arff
-*.xml
-*.txt
-.vscode/settings.json
-*.arff
+datasets
+*.json

@@ -50,35 +50,6 @@ def convert(a):
             return 0
         return b
 
-
-# Banido
-# def ml_knn(X_train, y_train, X_test):
-#     print(X_train)
-
-#     X_train_matrix = scipy.sparse.csr_matrix(X_train.values)
-#     y_train_matrix = scipy.sparse.csr_matrix(y_train.values)
-
-#     mlknn = MLkNN(k=5)
-
-#     print(X_train.to_numpy())
-#     # train
-#     # no fits???
-#     mlknn.fit(X=X_train.to_numpy(), y=y_train.to_numpy())
-
-#     # predict
-#     predictions = mlknn.predict(X_test)
-
-
-# def ml_knn_grid_search(X, y):
-#     parameters = {'k': range(1, 3), 's': [0.5, 0.7, 1.0]}
-#     score = 'f1_macro'
-
-#     clf = GridSearchCV(MLkNN(), parameters, scoring=score)
-#     clf.fit(X, y)
-
-#     print(clf.best_params_, clf.best_score_)
-
-
 def label_powerset(X_train, X_test, Y_train, Y_test):
     lp = LabelPowerset(RandomForestClassifier())
     lp.fit(X_train, Y_train)
@@ -123,6 +94,31 @@ for i in range(len(datasetsName)):
     Y_test[i] = X_test[i].iloc[:, -datasetsName[i][1]:]
     X_test[i].drop(columns=list(Y_test[i].columns), inplace=True)
 
-print('amogus')
-ml_knn(X_train[0], Y_train[0], X_test[0])
-print(X_train[2])
+
+
+# Banido
+# def ml_knn(X_train, y_train, X_test):
+#     print(X_train)
+
+#     X_train_matrix = scipy.sparse.csr_matrix(X_train.values)
+#     y_train_matrix = scipy.sparse.csr_matrix(y_train.values)
+
+#     mlknn = MLkNN(k=5)
+
+#     print(X_train.to_numpy())
+#     # train
+#     # no fits???
+#     mlknn.fit(X=X_train.to_numpy(), y=y_train.to_numpy())
+
+#     # predict
+#     predictions = mlknn.predict(X_test)
+
+
+# def ml_knn_grid_search(X, y):
+#     parameters = {'k': range(1, 3), 's': [0.5, 0.7, 1.0]}
+#     score = 'f1_macro'
+
+#     clf = GridSearchCV(MLkNN(), parameters, scoring=score)
+#     clf.fit(X, y)
+
+#     print(clf.best_params_, clf.best_score_)
