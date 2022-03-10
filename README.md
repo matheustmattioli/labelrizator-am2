@@ -62,7 +62,7 @@ Para atacar esses problemas multirrótulos, além de um pré-processamento neces
 - *Classifier Chains* (CC)
 - *Label Powerset* (LP)
 
-A partir disso utilizamos algoritmos de classificação para classificar os conjuntos de treino, escolhendo os melhores parâmetros através de *Grind Search* e método do cotovelo. Avaliamos a qualidade das respostas com análise de acurácia e *Hamming loss*.
+A partir disso utilizamos algoritmos de classificação para classificar os conjuntos de treino, escolhendo os melhores parâmetros através de *Grind Search*. Avaliamos a qualidade das respostas com análise de acurácia e *Hamming loss*.
 
 ## Implementação
 
